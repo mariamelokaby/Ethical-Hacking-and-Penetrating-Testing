@@ -3,6 +3,7 @@ Comprehensive Security Assessment Report
 Overview
 
 This report details a series of security assessments, including vulnerability scanning, exploitation, privilege escalation, and log management across multiple tasks. Each task outlines the methodologies and findings related to specific vulnerabilities and exploits.
+
 Task 1: Initial Scanning and Enumeration
 Scanning
 
@@ -22,6 +23,7 @@ Enumeration
     SMB Enumeration
         Tool Used: smbclient -L 192.168.1.100
         Outcome: Listed available SMB shares on the target machine.
+        
 
 Task 2: Exploitation and Access
 Exploitation
@@ -43,6 +45,7 @@ Access
 
     SSH Login
         Outcome: Accessed the target machine via SSH with obtained credentials.
+        
 
 Task 3: Privilege Escalation and Further Exploitation
 Privilege Escalation
@@ -64,6 +67,7 @@ Further Exploitation
     Exploit Execution
         Command Used: ./exploit
         Outcome: Achieved root access.
+        
 
 Task 4: SMB Exploitation
 Scanning and Vulnerability Identification
@@ -90,6 +94,7 @@ Manual Exploitation
         Tool Used: AutoBlue-MS17-010
         Payload: Generated using a Reverse Shell technique.
         Exploit: Successfully exploited MS17-010.
+
 
 Task 5: Comprehensive Vulnerability Assessment
 Scanning and Enumeration
@@ -125,6 +130,7 @@ Exploitation
     Redis
         Tool Used: redis-cli
         Outcome: Successfully connected to the Redis instance.
+        
 
 Task 6: Command Injection and Privilege Escalation
 Scanning and Enumeration
@@ -151,6 +157,7 @@ Exploitation
         SUID Exploitation: Found /home/user3/shell with SUID bit, executed to gain root access.
         Crontab Exploitation: Modified /etc/crontab and added reverse shell payload to autoscript.sh.
         Outcome: Gained a reverse shell with root privileges.
+        
 
 Task 7: SMB and Log Management
 Scanning and Enumeration
